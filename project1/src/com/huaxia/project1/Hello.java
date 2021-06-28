@@ -1,4 +1,4 @@
-package project1;
+package com.huaxia.project1;
 
 public class Hello {
 
