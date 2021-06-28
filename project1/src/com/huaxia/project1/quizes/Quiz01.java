@@ -12,6 +12,7 @@ public class Quiz01 {
 	}
 
 	private static void question1() {
+		System.out.println("question1()...");
 		int a = 10;
 		double b = 10.7;
 //		int d = a + b;
@@ -21,6 +22,7 @@ public class Quiz01 {
 	}
 
 	private static void question2() {
+		System.out.println("question2()...");
 		int a = 11;
 		int b = 4;
 		double x = 11;
@@ -34,6 +36,7 @@ public class Quiz01 {
 	}
 
 	private static void question3() {
+		System.out.println("question3()...");
 		int val1 = 2, val2 = 22, val3 = 78; 
 	    while (val2 % val1 == 0 || val2 % 3 == 0 ){
 	        val3++; 
@@ -43,13 +46,16 @@ public class Quiz01 {
 	}
 
 	private static void question4() {
+		System.out.println("question4()...");
 		System.out.print(1);
 		System.out.print("1");
 //		System.out.print(side1); // assume side1 is not defined any where else.
 		System.out.print("side1");
+		System.out.println();
 	}
 
 	private static void question5() {
+		System.out.println("question5()...");
 		//This is a comment
 	    /* This is a comment*/ 
 	    // myName is a good identifier name 
