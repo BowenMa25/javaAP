@@ -3,10 +3,10 @@ package com.huaxia.project1.quizes;
 public class Quiz02 {
 
 	public static void main(String[] args) {
-		question1();
+//		question1();
 //		question2();
 //		question3();
-//		question4();
+		question4();
 //		question5();
 	}
 
@@ -27,7 +27,7 @@ public class Quiz02 {
 		System.out.println("question2()...");
 		String animal1 = "elephant";
 		String animal2 = "lion";
-		swap(animal1, animal2);
+		swap(animal1, animal2); // swap the label in the method, has no effect on calling method here
 		animal1 = animal1.toUpperCase();
 		animal2.toUpperCase();
 		System.out.println(animal1 + " " + animal2);
@@ -35,7 +35,8 @@ public class Quiz02 {
 	}
 
 	private static void question3() {
-		System.out.println(pow(3,3));
+		System.out.println("question3()...");
+		System.out.println(pow(3,3)); // recursive function: 1. terminated; 2. adjust variable;
 
 	}
 
@@ -95,4 +96,12 @@ public class Quiz02 {
 			return f(n/10) + n % 10; 
 			
 	}
+}
+
+//class 4APPCalculus{ // (D) cannot use number as first letter as variable name
+//	
+//}
+
+class APPCalculus{ //(E)
+}
 }
