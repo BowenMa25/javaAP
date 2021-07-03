@@ -3,7 +3,7 @@ package com.huaxia.project1.homeworks;
 /**
  * @see classHW1.md
  * 
- * @author John
+ * @author bowen
  *
  */
 public class ClassHW1 {
