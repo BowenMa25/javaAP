@@ -1,7 +1,14 @@
 # Kingdomino Game Design
 
+## Design diagram
 ```mermaid
 classDiagram
+class Terrain{
+    image:Image
+    numberOfCrown:int
+    getImage(TerrainImage)
+}
+
 class Board{
 properties:Property[]
 }
@@ -15,10 +22,4 @@ class Tile{
 terrain1:Terrain
 terrain2:Terrain
 }
-
-class Terrain{
-    image:Image
-    numberOfCrown:int
-}
-
 ```

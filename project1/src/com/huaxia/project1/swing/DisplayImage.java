@@ -4,6 +4,11 @@ import javax.swing.JFrame;
 
 public class DisplayImage extends JFrame{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public DisplayImage() {
 		super("my title");
 		setSize(640, 480);
